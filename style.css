@@ -1,0 +1,108 @@
+body{
+    
+    background-color:white;
+    color: white ;
+    text-align: center;
+    font-family: 'Sofia';font-size: 22px;
+    margin: 0px;
+    overflow: hidden;
+}
+/*------img--------*/
+header img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 70%;
+}
+/*----------nav-----------*/
+.navigation{
+    text-align: center;
+    padding: 100px;
+}
+/*-------ul-----------*/
+.navigation >.links{
+    list-style: none;
+   
+
+}
+/*-------li-------*/
+.navigation > .links > li{
+    display:inline-block;
+    padding: 20px;
+}
+.navigation > .links li > .link{
+    color: silver;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px rgb(225, 227, 235);
+
+}
+/*-------------hover'-----------------*/
+.navigation > .links  li >.link:hover{
+    text-shadow: 5px 5px 10px rgb(0, 89, 255);
+}
+/*-----------VIDIO-----------------*/
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+/*------me---------*/
+.me {
+
+        position: fixed;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 30%;
+        left: 35%;
+        margin-top: 70px;
+        padding: 20px;
+    }
+
+    .me p {
+        margin: 0;
+    }
+
+ 
+
+
+
+
+
+/*----------footer--------------*/
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*----------stylcont-------------*/
+.cont{
+    text-align: center;
+    color: blue;
+}
+/*---------back----------*/
+.back{
+    background-color: rgb(157, 157, 168);
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 30%;
+    left: 35%;
+    margin-top:300px;
+    padding:20px;
+   
+}
+/*.back li a{
+    padding: 20%;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+
+}
